@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact <meta http-equiv="X-UA-Compatible" content="IE=7"></title>
+    <style>
+        
+        #Message{
+           
+            width: 93%;
+            border-top: 3px ridg gainsboro;
+            border-bottom: 2px solid gainsboro;
+            border-right: 2px solid gainsboro;
+            border-left: 2px solid gainsboro;
+            padding-bottom: 30%;
+        }
+        #button{
+            margin-left: 35%;
+            background-color:blueviolet;
+            height: 50px;
+            color: white;
+            width: 25%;
+            border-radius: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 19px;
+        }
+        
+    </style>
+</head>
+<body style="background-image:url(pur.jpg);
+background-size: cover;">
+        <fieldset style=" width: 25%;margin-left: 35%;border: none;">
+            <p style="color: white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 45px; text-align: center;margin-top: -1%;">Contact Me</p>
+            <p style="text-align: center; color: white;margin-top: -10%;">Got a question?We'd love to hear from you.send us a message and we'll respond as soon as possible.</p>
+            <font size="5px">
+    <form action="msg.html">
+    
+        <label for="Name" style="color: white; "> Name</label> <br>
+        <input type="text" id="FName" name="FName" required placeholder="yourFirst name" pattern="[a-z A-Z]{3,10}" style="padding-bottom: 3%;">
+        <input type="text" id="LName" name="LName" required placeholder="your last name"pattern="[A-Z a-z]{3,10}" style="padding-bottom: 3%;"><br><br>
+        <label for="email"style="color: white;">email</label><br>
+        <input type="email" id="email" name="email" required placeholder="EX:xyz@gmail.com" size="50px"style="padding-bottom: 3%;"><br><br>
+        <label for="Country"style="color: white;">Country</label><br>
+        <input type="text" id="Country" name="Country" required placeholder="EX:India" size="50px"style="padding-bottom: 3%;"><br><br>
+        <label for="PhoneNo"style="color: white;">Your Phone Number</label> <br>
+        <input type="text" id="PhoneNo" name="PhoneNo" required placeholder="EX:8297293749" pattern="[6-9]{1}[0-9]{9}" style="padding-bottom: 3%;"><br><br>
+        <label for="Message"style="color: white;" >Message</label><br>
+        <input type="text" id="Message" required><br><br>
+        
+        <input type="submit" id="button">
+    
+        
+        
+
+
+    </form>
+    </font>
+    </fieldset>
+    
+
+</body>
+</html>
